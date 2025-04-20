@@ -79,9 +79,9 @@ spring:
 1. **Clone the repository** or **extract the `origin-url-shortner.zip`** archive
 
    ```bash
-   git clone https://your-repo-url.git](https://github.com/Sunnyday16/origin-url-shortner.git
-   or extract the `origin-url-shortner.zip
-   cd origin-url-shortner
+   git clone https://github.com/Sunnyday16/origin-url-shortner.git
+   or extract the `origin-url-shortner.zip 
+   cd origin-url-shortner (go to the origin-url-shortner directory)
    ```
 
 2. **Build with Maven**
@@ -144,14 +144,14 @@ Errors return a JSON payload:
 
    ```json
    {
-     "shortUrl": "http://short.ly/a1B2c3d4"
+     "shortUrl": "http://short.ly/0922edaa"
    }
    ```
 
 2. **Redirect**
 
    ```bash
-   curl -i http://localhost:8080/a1B2c3d4
+   curl -i http://localhost:8080/0922edaa
    ```
 
    Response:
@@ -164,7 +164,7 @@ Errors return a JSON payload:
 3. **Get URL Info**
 
    ```bash
-   curl http://localhost:8080/api/info/a1B2c3d4
+   curl http://localhost:8080/api/info/0922edaa
    ```
 
    Response:
@@ -183,8 +183,7 @@ The API is documented using Springdoc OpenAPI. After starting the application, n
 
 - OpenAPI JSON: `/v3/api-docs`
 - Swagger UI: `/swagger-ui.html`, `/swagger-ui/index.html`, or `/swagger-ui/index.htm`
-
-Add the dependency to your `pom.xml`:
+- eg: http://localhost:8080/swagger-ui/index.html
 
 
 

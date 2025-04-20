@@ -79,8 +79,9 @@ spring:
 1. **Clone the repository** or **extract the `origin-url-shortner.zip`** archive
 
    ```bash
-   git clone https://your-repo-url.git
-   cd url-shortener-api
+   git clone https://your-repo-url.git](https://github.com/Sunnyday16/origin-url-shortner.git
+   or extract the `origin-url-shortner.zip
+   cd origin-url-shortner
    ```
 
 2. **Build with Maven**
